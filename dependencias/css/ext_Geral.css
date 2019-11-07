@@ -1,0 +1,420 @@
+header,
+footer,
+content{
+	overflow: hidden;
+}
+
+
+.contente{
+		background-color: #ffff;
+		/*margin-left: 10% ;*/
+		width: 100vw;
+		height:auto;
+		position: absolute;
+		margin-top:0;
+	    padding:0px;
+
+	}
+
+	.nav-top{
+		margin-top:0;
+		height:500px;
+		width: 100%;
+
+	}
+	
+	.nav-top img{
+		margin-top:0;
+		width: 100%;
+		height: 500px;
+		position: absolute;
+		z-index: 0;
+		
+	}	
+
+	.nav-top-trasp{
+		margin-top:0;
+		background-color: #0cf;
+		margin-right: 10px;
+		width: 100%;
+		height: 500px;
+		opacity: 0.65;
+		z-index: 1;
+		position: absolute;
+		
+	}
+  
+
+
+
+
+
+	.nav-top-menu{
+	
+
+	}
+	.nav-top-menu ul{
+		margin-left: 70%;
+		margin-top: 2%;	
+		color: #ffff;
+		font-family: arial;
+		position: absolute;
+		z-index: 2;
+
+	}
+	.nav-top-menu li{
+		padding: 5px;
+		display: inline-block;
+		text-decoration: none;
+
+		
+	}
+	.nav-top-menu li:hover{
+		
+		border:1px solid white;
+		border-radius:10px;
+	}
+	#link_login_nav_top {
+		color: white;
+		margin:0; 
+	}
+
+	.nav-top-pesq{
+		padding:1px;
+	    height: 20px;
+		margin-top: 350px;
+		margin-left: 40%;
+		border-radius: 15px;
+		position: absolute;
+		z-index: 3;
+
+	}
+
+	.nav-top-pesq1{
+		padding:1px;
+	    height: 20px;
+		margin-top:5px;
+		margin-left: 40%;
+		border-radius: 15px;
+		position: absolute;
+		z-index: 3;
+
+	}
+
+
+
+/*
+	.nav-top-pesq input, input:hover{
+		text-decoration: none;
+		padding: 5px;
+		float: left;
+		height: 25px;
+		box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+		
+	}
+
+*/
+	#pesq_rua_simples{
+			position: absolute;
+			border:white;
+            border-radius:20px;
+            width: 200px;
+            margin-top:-80px;
+            text-align: center;
+	}
+
+
+
+	#pesq_cidade_simples{
+			width: 90px;
+			border-radius:10px; 
+			border-left-color: aqua; 
+			
+
+	}	
+
+	#pesq_simples_bt{
+		position:relative;
+		float:right;
+		background-color: #00FA9A;
+		color: white;
+		width: 90px;
+		height: 30px;
+		border:none;
+		border-radius: 15px;
+		margin-top:350px;
+		margin-left:60%;
+		z-index: 3;
+		position: absolute;
+	}
+	.nav-top-logo{
+		z-index: 5;
+		position: absolute;
+		border-radius: 15px;
+		margin-left: 20%;
+		margin-top: 5%;
+		background-color: black;
+
+	}
+
+	.nav-top-pesq-detalhado{
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 400px;
+		height: 180px;
+		padding: 5px;
+		background-color: #ffff;
+		box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+		border-radius: 15px;
+		position: absolute;
+		z-index: 3;
+
+
+	}
+	.nav-top-pesq-detalhado input{
+		margin: 5px;
+
+
+	}
+	section h5{
+font-family:arial;
+color:#696969;
+margin-top:15px;
+margin-left:30px;
+
+	}
+section label{
+font-family:arial;
+font-size: 15px;
+margin-top:-10px;
+margin-left: 40px;
+}
+#pesq_avancada{ 
+position:absolute;
+border-radius:5px;
+text-align: center;
+width:150px;
+margin-top:10px;
+margin-left:30px;
+	}
+#pesq_avancada2{
+position:relative;
+float: right;
+border-radius:5px;
+text-align: center;
+width:150px;
+margin-top:-54px;
+margin-right:420px;
+	}
+	
+section h6{
+color:#696969;
+position:relative;
+float: right;
+margin-top:-18%;
+margin-right:23%;
+font-family:arial;
+font-size: 15px;
+
+}
+#customRange1{
+
+width:150px;
+float:right;
+margin-top:-10%;
+margin-right:10%;
+
+}
+#customRange2{
+width:150px;
+float:right;
+margin-top:-12%;
+margin-right:10%;
+
+}
+
+#customRange3{
+width:150px;
+float:right;
+margin-top:-12%;
+margin-right:-5%;
+
+}
+
+
+
+
+#pesq_pesquisa_bt{
+		background-color: #1E90FF;
+		color: white;
+		width: 90px;
+		height: 25px;
+		border:none;
+		border-radius:15px;
+		margin-top:-5%;
+		margin-left:80%;
+		z-index: 3;
+		position: absolute;
+	}
+#imagens{
+display: inline-block;
+position:relative;
+margin-left:500px;
+margin-top:130px;
+
+}
+#imagens > div{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	float: left;
+	font-size: 12px;
+	text-align:justify;
+	font-family: verdana;
+}
+
+
+#img01{
+padding-left:1px;
+
+}
+
+
+
+
+#imagens > div > img {
+
+margin-left: 10px; 
+	width: 60px;
+	height: 60px;
+ 
+}
+
+
+#imagens > div > label{
+font-size:12px;
+padding-left:20px;
+}
+	
+hr{
+
+width:400px;
+margin-left:550px;
+float: left;
+}
+
+
+.nossasnovidades{
+		width: 1000px;
+		margin-left:18%;
+		margin-top: 100px;
+		height: 500px;
+		background-color: #ffff;
+		box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2);
+		border-radius: 20px;
+		position: absolute;
+		z-index: 3;
+
+
+	}
+
+footer h4{
+
+font-family: arial;
+color:#696969;
+padding:15px;
+}
+
+footer hr{
+margin-left:0px;
+width:998px;
+
+}
+
+.card-deck{
+
+padding:10px;
+margin-left:30px;
+margin-right:20px;
+margin-top:20px;
+
+}
+
+.oficinasemdestaque{
+width: 1000px;
+margin-left:18%;
+margin-top:700px;
+height: 500px;
+background-color: #ffff;
+position: absolute;
+z-index: 3;
+
+}
+
+.card-deck1{
+
+padding:10px;
+margin-left:30px;
+margin-right:20px;
+margin-top:20px;
+width:100px;
+}
+.card{
+margin-left:15px;	
+width:300px;
+display:inline-block;
+
+}
+
+.recente{
+width: 1000px;
+margin-left:18%;
+margin-top:1200px;
+height: 500px;
+background-color: #ffff;
+position: absolute;
+z-index: 3;
+
+}
+.card2{
+margin-left:8px;	
+width:320px;
+display:inline-block;
+
+}
+
+.interesse{
+width:700px;
+margin-left:39%;
+margin-top:1200px;
+height:380px;
+background-color: #ffff;
+box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2);
+border-radius: 20px;
+position: absolute;
+z-index: 3;
+padding:0px;
+
+}
+
+
+	.nav-top1{
+		margin-top: 40px;
+		height:500px;
+		width: 100%;
+
+	}
+
+	.nav-top-trasp1{
+		margin-top:0px;
+	  background-color: #ffffff;
+	  margin-right: 10px;
+	  width: 100%;
+	  height: 100px;
+	  opacity: 0.65;
+	  z-index: 1;
+	  position: absolute;
+	  
+  }
+
+

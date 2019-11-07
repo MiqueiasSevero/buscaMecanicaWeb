@@ -1,0 +1,197 @@
+
+#container-areamecanico{
+width:100%; 
+margin-top:5%;
+}
+
+#circ1{
+position:absolute;
+width:15%;
+height:30%;
+margin-top:5%;
+margin-left:15%;
+margin-right:0%;
+background-color:rgba(229, 233, 233, 0.712);
+border-radius:50%;
+
+}
+
+
+#circ2{
+position:absolute;
+width:15%;
+height:30%;
+margin-top:5%;
+margin-left:42%;
+background-color:rgba(229, 233, 233, 0.712);
+border-radius:50%;
+}
+
+#circ3{
+position:absolute;
+width:15%;
+height:30%;
+margin-top:5%;
+margin-left:70%;
+background-color:rgba(229, 233, 233, 0.712);
+border-radius:50%;
+}
+
+
+.list-group-mecanico{
+
+box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.navbar-brand{
+margin-left:40%;
+
+}
+
+#serv{
+position:absolute;	
+margin-top:1%;
+width:98%;
+margin-left:0%;
+
+}
+
+#serv .nav-link{
+margin-left:40%;
+width:100%;
+}
+
+.lista-servicos{
+
+width:100%;
+
+ }
+
+#frm{
+margin-top:20%;
+}
+
+#iconeserv{
+width:20%;
+height:20%; 
+margin-left:40%;
+margin-top:30%;
+}
+
+#iconeefetuados{
+width:20%;
+height:20%; 
+margin-left:40%;
+margin-top:30%;
+}
+
+#iconeoferta{
+width:20%;
+height:20%; 
+margin-left:40%;
+margin-top:30%;
+}
+
+legend{
+margin-left:20%;
+}
+#retg{
+width:100%;
+height:50%;
+box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+margin-top:1%;
+}
+
+#retg > hr{
+width:100%;
+margin-left:0%;
+background-color:#cccccc;
+}
+
+#retg >h1{
+margin-left:3%;
+padding-top:1%;
+}
+
+
+.list-group-inserir-servico{
+    
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+    }
+
+
+
+#btnIncluir{
+position:absolute;
+margin-right:3%;
+right:0%;
+margin-top:5%;
+height:9%;
+}
+
+
+#tblServicos{
+position:absolute;
+margin-top:10%;
+margin-left:30%;
+z-index:8;
+
+}
+
+#tblServrealiza{
+position:absolute;
+margin-top:5%;
+z-index:6;
+}
+
+#frm-inserir-servico{
+margin-top:32%;
+width:100%;
+height:58%;
+box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+padding-top:1%;
+
+padding-left:10%;
+padding-right:10%;
+}
+
+#exampleFormControlTextarea1{
+margin-left:15%;
+width:85%;
+}
+
+#btSalvar{
+width:10%; 
+margin-left:75%;
+
+}
+#btCancelar{
+width:10%; 
+
+}
+
+
+.list-group-serv-realizado{
+margin-top:1%;
+box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);	
+}
+form > hr{
+width:100%;
+margin-left:0%;
+background-color:#cccccc;
+
+
+}
+#oferta-servico{
+width:100%;
+margin-left:0%;
+box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);	
+margin-top:1%;
+}
